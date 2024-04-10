@@ -1,0 +1,30 @@
+.tamaño{
+    width: 200px;
+    padding-left: 10px;
+    gap: 20px;
+
+}
+
+.alineamiento{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: 250px;
+
+}
+
+.tamaño_img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.centrar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.caja{
+    background-image: url(/Peliculas/fondo.jpg);
+
+}
