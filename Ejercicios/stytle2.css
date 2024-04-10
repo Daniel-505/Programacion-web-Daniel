@@ -1,0 +1,94 @@
+.tamaño{
+    width: 200px;
+    padding-left: 10px;
+    gap: 20px;
+
+}
+
+.alineamiento{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: 250px;
+
+}
+
+.tamaño_img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.centrar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.caja{
+    background-image: url(/Peliculas/fondoblack.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.contenedor-flex {
+    display: flex; /* aplica la propiedad display: flex */
+}
+
+.contenedor-flex div {
+    /* astilos opcionales para los elementos hijos */
+    padding: 10px;
+    margin: 5px;
+    background-image: url(/Peliculas/fondoDeCaja.jpeg);
+}
+.contenedor-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px; 
+}
+
+.contenedor-grid div {
+    background-image: url(/Peliculas/fondoDeCaja.jpeg);
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pokemon-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.pokemon-img {
+    width: 100%;
+    height: auto;
+}
+
+.pokemon-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.pokemon-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pokemon-type {
+    font-style: italic;
+    color: #888;
+}

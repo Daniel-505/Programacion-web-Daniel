@@ -1,0 +1,74 @@
+Preguntas:
+1_La propiedad de CSS que se utiliza para cambiar el comportamiento de los elementos en un contenedor,
+  permitiendo un diseño flexible y eficiente, es display.
+  Esta propiedad controla cómo se muestra un elemento en la página.
+
+2_La propiedad de CSS que permite definir el espacio entre los elementos hijos dentro de un
+  contenedor flex o grid es gap. Esta propiedad se introdujo en CSS Grid Layout y CSS Flexbox para 
+  facilitar la definición del espacio entre elementos sin la necesidad de 
+  utilizar márgenes o rellenos en los elementos hijos.
+
+3_`justify-content` se utiliza en contenedores flex para alinear 
+   los elementos a lo largo del eje principal del contenedor, 
+   como horizontalmente en la dirección de escritura de izquierda 
+   a derecha o verticalmente en la dirección de escritura de 
+   arriba a abajo. Los valores comunes incluyen `flex-start`, 
+   `flex-end`, `center`, `space-between`, `space-around`, y 
+   `space-evenly`.
+
+   `align-items` se usa en contenedores flex para alinear los 
+   elementos a lo largo del eje transversal del contenedor, que 
+   es perpendicular al eje principal. Los valores comunes son 
+   `stretch`, `flex-start`, `flex-end`, `center`, y `baseline`.
+
+    En esencia, `justify-content` controla la alineación de los 
+    elementos en el eje principal (horizontal o vertical), 
+    mientras 
+    que `align-items` controla su alineación en el eje 
+    transversal. 
+
+4_La propiedad de CSS que se utiliza para definir el tamaño de    
+  las filas y columnas en un contenedor grid es 
+  grid-template-rows para las filas y grid-template-columns para 
+  las columnas.
+
+5_**Flexbox (`display: flex`)**:
+  - Diseña layouts unidimensionales, ideal para alinear elementos 
+    en una sola fila o columna.
+  - Los elementos flexibles pueden expandirse o contraerse para 
+    adaptarse al espacio disponible.
+  - Se utiliza principalmente para estructuras de diseño más 
+    simples y lineales.
+
+  **Grid Layout (`display: grid`)**:
+  - Diseña layouts bidimensionales con filas y columnas,  
+    ofreciendo un control más preciso sobre la disposición del 
+    contenido.
+  - Permite colocar elementos en cualquier celda específica o 
+    combinación de celdas dentro de una cuadrícula.
+  - Es especialmente útil para diseños más complejos y 
+    estructurados, donde se necesitan filas y columnas definidas 
+    de manera específica.
+
+    En resumen, Flexbox es ideal para alinear elementos en una 
+    sola dirección, mientras que Grid Layout proporciona un 
+    control más avanzado para diseñar layouts bidimensionales. 
+    Dependiendo de las necesidades del diseño, se puede elegir 
+    entre Flexbox, Grid Layout, o incluso combinar ambos para 
+    obtener resultados más complejos y completos.
+
+6_Para alinear los elementos hijos dentro de un contenedor flex 
+  en CSS:
+
+  Utiliza la propiedad justify-content para alinear los elementos 
+  a lo largo del eje principal (horizontal o vertical) del 
+  contenedor flex. Algunos valores comunes son flex-start, 
+  flex-end, center, space-between, space-around, y space-evenly.
+
+  Emplea la propiedad align-items para alinear los elementos a lo 
+  largo del eje transversal del contenedor flex. Algunos valores 
+  comunes son stretch, flex-start, flex-end, center, y baseline.
+
+  Juntos, estos ajustes te permiten controlar la alineación tanto 
+  horizontal como vertical de los elementos dentro del contenedor 
+  flex según tus necesidades de diseño.
