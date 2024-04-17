@@ -25,21 +25,18 @@
 }
 
 .caja{
-    background-image: url(/Peliculas/fondoblack.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 }
 .contenedor-flex {
-    display: flex; /* aplica la propiedad display: flex */
+    display: flex;
 }
 
 .contenedor-flex div {
-    /* astilos opcionales para los elementos hijos */
     padding: 10px;
     margin: 5px;
-    background-image: url(/Peliculas/fondoDeCaja.jpeg);
 }
 .contenedor-grid {
     display: grid; 
@@ -54,7 +51,7 @@
     text-align: center;
     padding: 20px;
 }
-body {
+.body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     padding: 20px;
@@ -65,7 +62,7 @@ body {
     gap: 20px;
 }
 
-.pokemon-card {
+.pokemon-carta {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -82,7 +79,7 @@ body {
     text-align: center;
 }
 
-.pokemon-title {
+.pokemon-titulo {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
