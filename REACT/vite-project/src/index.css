@@ -1,71 +1,123 @@
-body{
-    background-color: #818080;
-
-
+body {
+  background-color: #918f8f;
 }
 
 header {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-bottom: 2px solid #444242;
+  background-color: #474747;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #444242;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.2s; /* Efecto suave en hover */
 }
 
 nav {
-    background-color: #818080;
-    color: #000000;
-    padding: 2px;
-    text-align: center;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-bottom: 2px solid #444242;
+  background-color: #818080;
+  color: #474747;
+  padding: 2px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #444242;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.2s; /* Efecto suave en hover */
 }
 
 main {
-    padding: 1em;
+  padding: 1em;
 }
 
 .image-container {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1400px; /* Limitar el ancho máximo del contenedor */
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px; /* Limitar el ancho máximo del contenedor */
 }
 
 .image-container img {
-    width: 320px; /* Ajusta el tamaño de la imagen */
-    height: auto; /* Mantiene las proporciones de la imagen */
-    margin-right: 1em;
+  width: 320px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene las proporciones de la imagen */
+  margin-right: 1em;
 }
 
 .image-description {
-    font-size: 1em;
-    color: #333;
+  font-size: 1em;
+  color: #333;
 }
 
 .text-box {
-    background-color: #f4f4f4; /* Fondo de la caja de texto */
-    border: 1px solid #ccc; /* Borde de la caja de texto */
-    padding: 1em; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    max-width: 100%; /* Permite que la caja de texto se ajuste al ancho disponible */
-    overflow: auto; /* Añade barras de desplazamiento si el contenido excede el tamaño */
-    flex: 1; /* Permite que la caja de texto ocupe el espacio restante */
+  background-color: #f4f4f4; /* Fondo de la caja de texto */
+  border: 1px solid #ccc; /* Borde de la caja de texto */
+  padding: 1em; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  max-width: 100%; /* Permite que la caja de texto se ajuste al ancho disponible */
+  overflow: auto; /* Añade barras de desplazamiento si el contenido excede el tamaño */
+  flex: 1; /* Permite que la caja de texto ocupe el espacio restante */
 }
 
 .text-box p {
-    margin: 0; /* Elimina el margen por defecto del párrafo */
-    line-height: 1.5; /* Mejora la legibilidad del texto largo */
+  margin: 0; /* Elimina el margen por defecto del párrafo */
+  line-height: 1.5; /* Mejora la legibilidad del texto largo */
 }
 
-
 .social-link {
-    text-decoration: none;
-    color: #000; /* Color del texto negro */
-    font-weight: bold; /* Opcional: hacer el texto negrita para destacarlo */
+  text-decoration: none;
+  color: #000; /* Color del texto negro */
+  font-weight: bold; /* Opcional: hacer el texto negrita para destacarlo */
+}
+.body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #918f8f; /* Fondo claro para contrastar */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio inferior en el encabezado */
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex; /* Para alinear las imágenes en fila */
+  flex-wrap: wrap; /* Permite que las imágenes se envuelvan en filas si es necesario */
+}
+
+.image-item {
+  display: flex; /* Para alinear imagen y descripción */
+  align-items: center; /* Centra verticalmente */
+  margin-right: 20px; /* Espacio entre imágenes */
+  background-color: #474747; /* Fondo negro */
+  padding: 15px; /* Espacio interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.2s; /* Efecto suave en hover */
+}
+
+.image-item:hover {
+  transform: scale(1.05); /* Aumentar ligeramente al pasar el ratón */
+}
+
+.image-container {
+  display: flex; /* Para alinear imagen y descripción */
+}
+
+.image-item img {
+  width: 100px; /* Ajusta el tamaño de las imágenes */
+  height: auto;
+  margin-right: 10px; /* Espacio entre la imagen y la descripción */
+}
+
+.image-item p {
+  max-width: 200px; /* Limita el ancho de la descripción */
+  margin: 0; /* Elimina el margen por defecto */
+  color: white; /* Texto en blanco para contraste */
+  font-size: 14px; /* Tamaño de fuente más pequeño */
 }
